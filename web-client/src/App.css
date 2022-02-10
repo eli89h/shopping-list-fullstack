@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.App {
+  text-align: center;
+  background-color: rgb(255, 209, 70);
+  height: 150vh;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mainTitle {
+  font-family: "Lobster", cursive;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  font-family: "Oswald", sans-serif;
+}
+
+.listItemContent {
+  margin-left: 10px;
+  width: 60%;
+  display: flex;
+}
+
+.boughtDeleteIcon {
+  margin-left: 18%;
+}
+
+.profileBoughtList {
+  margin-left: 8%;
+}
+
+.quantityInput {
+  width: 18%;
+  background-color: rgb(255, 209, 70);
+  border-color: black;
+  border-radius: 6px 0 0 6px;
+}
+
+.quantityInput:focus {
+  outline: none;
+}
+
+.quantityInput::-webkit-outer-spin-button,
+.quantityInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contentInput {
+  background-color: rgb(255, 209, 70);
+  border-radius: 0 6px 6px 0;
+  border-color: black;
+  border-left: 1px grey;
+}
+
+.contentInput:focus {
+  outline: none;
+}
+
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editModal {
+  border: solid black 1px;
+  box-shadow: 5px;
+  width: 50%;
+  height: 60%;
+  margin-left: 25%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #efeef1;
+}
+
+.formSection {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.systemMessage {
+  color: red;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.shopIcon img {
+  width: 20px;
+  margin-left: 25px;
+}
+
+.shopIcon img:hover {
+  cursor: pointer;
+}
+
+.closeIcon img {
+  margin-left: 25px;
+  width: 40px;
+}
+
+.closeIcon img:hover {
+  cursor: pointer;
+}
+
+.addItemForm {
+  margin-top: 3px;
+}
+
+.addItemButton {
+  margin-top: 2px;
+}
